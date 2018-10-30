@@ -1,22 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Header from './components/Header'
+// import Header from './components/Header'
+import App from './components/App';
 
 import './scss/app.scss'
 
-class HelloMessage extends React.Component {
-  render() {
-    return (
-    	<div>
-        <Header/>
-        <div className="container">
-            <h1>Hello {this.props.name}</h1>
-        </div>
-      </div>
-    )
-  }
-}
+// class HelloMessage extends React.Component {
+//   render() {
+//     return (
+//     	<div>
+//         <App/>
+//       </div>
+//     )
+//   }
+// }
 
-let App = document.getElementById("app");
+let app = document.getElementById("app");
 
-ReactDOM.render(<HelloMessage name="Garrick" />, App);
+ReactDOM.render(<App/>, app);

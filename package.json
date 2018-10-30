@@ -6,6 +6,7 @@
   "scripts": {
     "start": "parcel build index.html --out-dir dist/assets",
     "build": "parcel build index.html --out-dir dist/assets",
+    "watch": "parcel watch index.html --out-dir dist/assets",
     "zat": "zat s --path=./dist"
   },
   "keywords": [],
