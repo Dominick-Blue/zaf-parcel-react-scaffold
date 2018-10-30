@@ -1,11 +1,12 @@
 # zaf-parcel-react-scaffold
-*Dependencies:* Node 8.3.0
+Dependencies: Node 8.3.0
 
-*Install:*
+# Install:
 nodenv local 8.3.0 -> git clone https://github.com/Lobaster/zaf-parcel-react-scaffold.git -> npm install
 
-*NPM Utilities:*
-*npm run build - executes one-off parcel build to dist folder
-*npm run watch - executes continous parcel build to dist folder (still requires refresh)
-*npm run zat - executes zat server from dist folder
+# NPM Utilities:
+<ul>npm run build - executes one-off parcel build to dist folder</ul>
+<ul>npm run watch - executes continous parcel build to dist folder (still requires refresh)</ul>
+<ul>npm run zat - executes zat server from dist folder</ul>
+
 
