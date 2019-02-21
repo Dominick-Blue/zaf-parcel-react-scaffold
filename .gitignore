@@ -1,0 +1,4 @@
+.cache/
+dist/
+src/.DS_Store
+node_modules/
