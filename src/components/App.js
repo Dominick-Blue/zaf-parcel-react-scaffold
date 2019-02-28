@@ -1,7 +1,6 @@
 import React from 'react';
 import '@zendeskgarden/react-buttons/dist/styles.css';
 import { ThemeProvider } from '@zendeskgarden/react-theming';
-import { Button } from '@zendeskgarden/react-buttons';
 
 import Header from './Header';
 import HelloWorld from './HelloWorld';

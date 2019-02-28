@@ -19,10 +19,10 @@ export default class HelloWorld extends React.Component {
   }
 
   render() {
-  	return (
-			<div className="container">
+    return (
+      <div className="container">
         <h1>Hello {this.state.name}</h1>
       </div>
-  	)
+    )
   }
 }
